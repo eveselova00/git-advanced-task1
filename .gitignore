@@ -1,0 +1,17 @@
+# исключаем все папки build, но не файлы с именем build
+**/build/
+!**/build
+
+# исключаем все jar-файлы, кроме module2.jar
+*.jar
+!**/module2.jar
+
+# исключаем папку .idea полностью
+.idea/
+
+# исключаем папку .idea_copy кроме файла workspace.xml
+.idea_copy/*
+!.idea_copy/workspace.xml
+
+# исключаем локальные настройки
+**/application-local.properties
